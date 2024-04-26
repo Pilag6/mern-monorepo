@@ -28,13 +28,13 @@ npm install -g degit
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/Pilag6/MERN.git
+    git clone https://github.com/Pilag6/mern-monorepo.git
     ```
 
 2. **Navigate to the Project Directory:**
 
     ```bash
-    cd MERN
+    cd mern-monorepo
     ```
 
 3. **Remove Existing Git History:**
@@ -76,17 +76,17 @@ Alternatively, you can use `degit` to scaffold the template without cloning the 
 1. **Use degit to Fetch the Template:**
 
     ```bash
-    npx degit Pilag6/MERN my-MERN-app
+    npx degit Pilag6/mern-monorepo my-mern-monorepo-app
     ```
 
-    This command fetches the template without Git history and renames the project to `my-MERN-app`. You can replace `my-MERN-app` with your preferred project name.
+    This command fetches the template without Git history and renames the project to `my-mern-monorepo-app`. You can replace `my-mern-monorepo-app` with your preferred project name.
 
     If you don't have `degit` installed, you can install it globally using `npm install -g degit`.
 
 2. **Navigate to the Project Directory:**
 
     ```bash
-    cd my-MERN-app
+    cd my-mern-monorepo-app
     ```
 
 3. **Initialize a New Git Repository:**
